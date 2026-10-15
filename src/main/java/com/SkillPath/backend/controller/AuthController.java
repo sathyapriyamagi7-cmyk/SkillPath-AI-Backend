@@ -1,4 +1,4 @@
-package com.SkillPath.backend.controller;
+﻿package com.SkillPath.backend.controller;
 
 import com.SkillPath.backend.model.User;
 import com.SkillPath.backend.repository.UserRepository;
@@ -11,7 +11,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:5174", "https://skill-path-ai-frontend-delta.vercel.app"})
 public class AuthController {
 
     private final UserRepository userRepository;
@@ -71,3 +71,6 @@ public class AuthController {
         ));
     }
 }
+
+
+
