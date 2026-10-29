@@ -1,4 +1,4 @@
-﻿package com.SkillPath.backend.controller;
+package com.SkillPath.backend.controller;
 
 import com.SkillPath.backend.model.User;
 import com.SkillPath.backend.repository.UserRepository;
